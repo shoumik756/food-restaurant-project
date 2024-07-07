@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.btn {
+    color: rgb(255, 255, 255);
+    padding: 15px 35px;
+    margin-top: 15px;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: rgb(82, 195, 3);
+    align-items: center;
+}
+
+.hero-button {
+    text-align: center;
+}
+
+.btn:hover {
+    background: rgb(119, 180, 76);
+}
+
+#hero {
+    height: 735px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 818px;
+
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    /* margin-top: 15px; */
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+#card-box {
+    width: 1056px;
+    margin: 120px auto;
+
+}
+
+.subtitle1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.title1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    align-items: center;
+}
+
+.card .image-box {
+    width: 300px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 15px 35px;
+    margin-top: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.para {
+    text-align: center;
+}
+
+#abt {
+    width: 100%;
+    /* padding: 100px 0; */
+    display: flex;
+}
+
+.food {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    height: auto;
+    /* padding: 25px; */
+
+}
+
+.food img {
+    width: 760px; 
+
+}
+
+
+
+.abt-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 760px;
+    
+}
+
+.abt-des .title1 {
+    margin: 15px 0;
+}
+.paragraph{
+    margin: 15px 0;
+}
+
+.divider {
+    margin: 15px 0;
+    width: 100%;
+   
+}
+.icon{
+    /* width: 50px; */
+    /* height: 50px; */
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+#fb{
+    width: 50px;
+    margin-right: 10px;
+}
+#xtwiter{
+    width: 25px;
+    margin-right: 20px;
+}
+#ins{
+    width: 30px;
+    margin-right: 20px;
+}
+#pin{
+    width: 30px;
+    margin-right: 20px;
+}
+#footer {
+    position: relative;
+    /* z-index: -1; */
+    height: 400px;
+    background-image: url("../assets/social-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.4; */
+   
+}
+.overly{
+    width: 100%;
+    height: 400px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.895);
+}
+
+#footer .footer-content {
+    width: 818px;
+
+}
+.footer-icon{
+    width: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.description2{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.footer-icon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-fb{
+    width: 50px;
+    margin-right: 10px;
+}
+#footer-x{
+    width: 25px;
+    margin-right: 20px;
+}
+#footer-ins{
+    width: 30px;
+    margin-right: 20px;
+}
+#footer-pin{
+    width: 30px;
+    margin-right: 20px;
+}
